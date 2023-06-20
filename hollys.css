@@ -140,7 +140,7 @@ main .all .coup .right .ic .ic-1 p {
 
 @media (max-width:767px) {
   body {
-    
+    background-color: blue;
   }
 }
 @media (max-width:480px) {
