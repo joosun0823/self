@@ -1,0 +1,170 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header > div {
+  width: 1470px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header > div nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+header > div nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+header > div h1 {
+  width: 20%;
+}
+
+main {
+  width: 1887px;
+  margin: 0 auto;
+}
+main .mem {
+  width: 100%;
+  height: 350px;
+  background-image: url("./img/Rectangle 9.jpg");
+  margin: 0 auto;
+  text-align: center;
+}
+main .mem p {
+  margin: 0 auto;
+  padding-top: 150px;
+  font-size: 70px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .menu {
+  width: 1470px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+}
+main .menu h1 {
+  font-size: 30px;
+}
+main .menu p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+main .menu p:before {
+  content: "";
+  border-top: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+main .menu figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+main .menu figure figcaption {
+  margin-top: 35px;
+}
+main .all {
+  width: 1887px;
+  height: 900px;
+  background: url("./img/img-sec02.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+main .all .coup {
+  margin-right: 250px;
+  margin-top: 50px;
+}
+main .all .coup .right {
+  white-space: pre-line;
+}
+main .all .coup .right strong {
+  font-size: 35px;
+}
+main .all .coup .right strong span {
+  color: red;
+}
+main .all .coup .right p {
+  margin: 0 auto;
+}
+main .all .coup .right .ic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+main .all .coup .right .ic .ic-1 {
+  margin: 30px;
+  text-align: center;
+}
+main .all .coup .right .ic .ic-1 strong {
+  font-size: 18px;
+}
+main .all .coup .right .ic .ic-1 figure {
+  width: 160px;
+  height: 160px;
+  background: white url("./img/ic2.png") center no-repeat;
+  margin: 0 auto;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .all .coup .right .ic .ic-1 figure img {
+  width: 40%;
+  height: auto;
+}
+main .all .coup .right .ic .ic-1 p {
+  margin: 20px;
+  color: rgb(110, 110, 110);
+}
+
+@media (max-width:767px) {
+  body {
+    background-color: blue;
+  }
+}
+@media (max-width:480px) {
+  header > div {
+    width: 1470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  header > div nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: none;
+  }
+  header > div nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  header > div h1 {
+    width: 20%;
+  }
+}/*# sourceMappingURL=hollys.css.map */
