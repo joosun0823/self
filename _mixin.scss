@@ -1,0 +1,6 @@
+@mixin reset{margin: 0; padding: 0; @content;}
+@mixin flex($x:flex-start,$y:flex-start){
+    display: flex;
+    justify-content: $x;
+    align-items: $y;
+}

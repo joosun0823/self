@@ -1,0 +1,38 @@
+
+$mobile:('max-width:480px', 'max-width:767px');
+$tablet:('min-width:768px', 'max-width:1279px');
+$PC:('min-width:1280px');
+
+@mixin device($dp){
+    @media ($dp){
+        @content;
+    }
+}
+
+
+@include device(nth($mobile,2)){
+    body{background-color: blue;}
+}
+
+@include device(nth($mobile,1)){
+    header{
+        >div{
+            width: 1470px;
+            margin: 0 auto;
+            @include flex(space-between,center);
+            text-align: center;
+            
+            nav{width: 40%; @include flex(space-around);
+                display: none;
+            a{
+                font-size:20px;
+                text-decoration: none;
+                color: black;
+            }
+            }
+            h1{width: 20%;}
+        }
+    }
+    
+}
+
